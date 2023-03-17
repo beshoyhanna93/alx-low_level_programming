@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - A program that print a line using printf function 
- * return:0
+*main - Entry point
+ *Description: A C program that prints with prints function.
+ *return:Always 0 (success)
 */
 int main(void)
 {
