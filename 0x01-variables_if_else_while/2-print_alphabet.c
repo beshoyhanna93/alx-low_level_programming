@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
 * main - prints the alphabet.
-* Return Always 0
+* Return: Always 0
 */
-int main (void)
+int main(void)
 {
 char alph[26]= "abcdefghijklmnopqrstuvwxyz";
 int i;
-for (i=0; i< 26; i++)
+for (i = 0; i < 26; i++)
 }
-nutcbar(alph[i]);
+putchar(alph[i]);
 }
-nutcbar('\n');
+putchar('\n');
 return (0);
 }
