@@ -1,16 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints program name , folllowed by a new line
- * @argc: int 
+ * @argc: int
  * @argv : list
  * return: 0
  */
 
 
-int main (int argc , const *argv[])
+int main(int argc, const *argv[])
 {
 	(void) argc;
-	printf ("%s\n" , argv[0]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
