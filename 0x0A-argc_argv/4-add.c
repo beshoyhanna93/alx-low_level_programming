@@ -25,18 +25,19 @@ int main(int argc, char *argv[])
 			ptr = argv[i];
 			length = strlen(ptr);
 
-			for (j = 0; j < legth; j++)
+			for (j = 0; j < length; j++)
 			{
 				if (isdigit(*(ptr + j)) == 0)
 				{
-					printf("error\n");
+					printf("Error\n");
 					return (1);
 				}
-				sum += atoi(argv[i]);
 			}
+
+			sum += atoi(argv[i]);
+		}
+
 	printf("%d\n", sum);
 	}
 	return (0);
 }
-
-
